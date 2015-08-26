@@ -1,5 +1,5 @@
 
-query = "recipe:#{node['locustio']['discovery_recipe']} AND chef_environment:#{node.chef_environment} AND locustio_node_type:master"
+query = "recipes:#{node['locustio']['discovery_recipe']} AND chef_environment:#{node.chef_environment} AND locustio_node_type:master"
 locust_master = search('node', query)
 
 if locust_master.length == 0
