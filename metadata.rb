@@ -6,7 +6,7 @@ description      'Installs/Configures locust'
 long_description 'Installs/Configures locust'
 version          '0.2.1'
 
-depends 'python', '~> 1.4.6'
-depends 'apt', '~> 2.6.1'
-depends 'runit', '~> 1.5.12'
+depends 'python', '= 1.4.6'
+depends 'apt', '= 2.9.2'
+depends 'runit', '~> 1.7.4'
 
